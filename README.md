@@ -1,6 +1,6 @@
 this guide adapted from: https://guides.emberjs.com/v2.14.0/getting-started/quick-start/
 
-#Ember
+# Ember
 
 Ember is a front-end JavaScript framework (based on the model-view-viewmodel[MVVM]) that provides a large amount of easy to use features for developers such as handlebars and route generation.
 
