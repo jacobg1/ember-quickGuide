@@ -1,5 +1,22 @@
 this guide adapted from: https://guides.emberjs.com/v2.14.0/getting-started/quick-start/
 
+#Ember
+
+Ember is a front-end JavaScript framework (based on the model-view-viewmodel[MVVM]) that provides a large amount of easy to use features for developers such as handlebars and route generation.
+
+An alternative to Ember would be any single page front end framework, ie angular.
+
+Some examples of Ember in the wild:
+
+* Groupon
+* LinkedIn
+* Vine
+* Chipotle
+* Live Nation
+
+Ember incorporates best practices and common idioms into the framework
+
+
 ## step 1: install ember
   run
   ```
