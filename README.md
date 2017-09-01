@@ -1,45 +1,33 @@
-# ember-quickstart
+https://guides.emberjs.com/v2.14.0/getting-started/quick-start/
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## step 1: install ember
+  run
+  ```
+  npm install -g ember-cli@2.14
+  ```
+once ember is installed
+  run
+  ```
+  ember new ember-quickstart
+  ```
+  to create your app!
 
-## Prerequisites
+  this will create a directory called ember-quickstart which contains your ember app.
 
-You will need the following things properly installed on your computer.
+  cd into your new app's directory and run
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+  ```
+  ember server
+  ```
+  to start your server.  You should see the following after a few seconds:
+  ```
+  Livereload server on http://localhost:49152
+  Serving on http://localhost:4200/
+  ```
+  navigate to localhost:4200 and you should see the ember welcome screen.
 
-## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-quickstart`
-* `npm install`
 
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
