@@ -4,6 +4,17 @@ this guide adapted from: https://guides.emberjs.com/v2.14.0/getting-started/quic
 
 Ember is a front-end JavaScript framework (based on the model-view-viewmodel[MVVM]) that provides a large amount of easy to use features for developers such as handlebars and route generation.
 
+Ember was created with the following ideas in mind:
+
+* ambitious web design
+* more productivity out of the box
+* stability without stagnation
+* foresight for future web standards
+
+Ember was created by Yehuda Katz a member of the jQuery, Ruby on Rails and SproutCore core teams.
+
+In 2011 SproutCore was renamed Ember.js
+
 An alternative to Ember would be any single page front end framework, ie angular.
 
 Some examples of Ember in the wild:
@@ -41,7 +52,7 @@ once ember is installed
   Livereload server on http://localhost:49152
   Serving on http://localhost:4200/
   ```
-  navigate to [http://localhost:4200] http://localhost:4200 and you should see the ember welcome screen.
+  navigate to http://localhost:4200 and you should see the ember welcome screen.
 
   to create a route enter the following:
   ```
@@ -100,6 +111,7 @@ Next delete ALL of the code in the books.hbs template and replace with the follo
 ```
 navigate to http://localhost:4200/books and you should see the same info displayed but now the books-list can be reused across views.
 
+Ember seems to be a fairly intuitive web framework. Coming from angular it seems very familiar.  
 
 ## Further Reading / Useful Links
 
